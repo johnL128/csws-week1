@@ -1,2 +1,2 @@
 # csws-week1
-week 1 of group project
+This is a 'Hello World' Program
