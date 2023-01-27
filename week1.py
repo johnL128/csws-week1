@@ -8,11 +8,30 @@ for x in range (5):
     print (y)
     
 #Simple List (Array)
-cars = ["BMW", "audi", "ferrari", "porsche"]
-print (cars)
+names = ["Harry", "Dara", "Ethans Mum", "sam"]
+print (names)
 
 #.title() capitalises first letter of the str
-print (cars[3].title())
+print (names[3].title())
 
-#Prints last item on the list
-print (cars[-1])
+#Everything
+for i in range (4):
+    print ("Hello " + names[i])
+
+#A bunch of random places
+places = ['Shetland','Manila','Milan','Stockholm']
+
+print(sorted(places))
+
+places.reverse()
+
+print(places)
+
+places.reverse()
+places.sort()
+print(places)
+
+
+
+
+
