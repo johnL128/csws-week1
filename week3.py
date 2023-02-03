@@ -1,2 +1,7 @@
-for i in number (1,1000000,1):
-    print (i)
+numbers = []
+
+for i in range (1,1000000,1):
+    numbers.append(i)
+
+
+numbers[1]
